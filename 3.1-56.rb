@@ -1,4 +1,7 @@
 # encode:utf-8
+# Rubyによるデザインパータン、アルゴリズムを変更する:Template Method
+# 複雑になってしまったロジック
+# これに、さらにフォーマットが追加となり、postscriptが必要になったら
 
 def main
   report = Report.new

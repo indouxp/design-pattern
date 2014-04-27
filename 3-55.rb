@@ -1,4 +1,6 @@
 # encode:utf-8
+# Rubyによるデザインパータン、アルゴリズムを変更する:Template Method
+#
 class Report
   def initialize
     @title = '月次報告'
