@@ -1,5 +1,5 @@
 #encoding:utf-8
-require './3.2-57.rb'
+require './3.4-62.rb'
 
 def main
   report = PlainTextReport.new

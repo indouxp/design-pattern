@@ -1,5 +1,5 @@
 #encoding:utf-8
-require './3.4-61.rb'
+require './3.4-62.rb'
 
 def main
   report = HTMLReport.new
