@@ -1,4 +1,7 @@
 # encode:utf-8
+# Rubyによるデザインパータン、アルゴリズムを変更する:Template Method
+# 変わるものと変わらないものを分離する。
+# これは変わらないもの
 
 class Report
   def initialize
