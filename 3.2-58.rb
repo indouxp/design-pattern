@@ -1,7 +1,7 @@
 #encoding:utf-8
 # Rubyによるデザインパータン、アルゴリズムを変更する:Template Method
 # 変わるものと変わらないものを分離する。
-# これは変わる部分
+# これは変わる部分(html版)
 require './3.2-57.rb'
 
 def main
