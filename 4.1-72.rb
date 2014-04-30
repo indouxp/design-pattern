@@ -40,7 +40,7 @@ class Report
 
   def initialize(formatter)
     @title = '月次報告'
-    @text = [ '順調', '最高の調子' ]
+    @text = [ '順調', '最高の調子', 'ちょっと悪い' ]
     @formatter = formatter
   end
 

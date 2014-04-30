@@ -67,6 +67,7 @@ describe 'Report' do
   <body>
     <p>順調</p>
     <p>最高の調子</p>
+    <p>ちょっと悪い</p>
   </body>
 </html>
 EOT
@@ -79,6 +80,7 @@ EOT
 ***** 月次報告 *****
 順調
 最高の調子
+ちょっと悪い
 EOT
     @report.output_report.should == @result
   end
