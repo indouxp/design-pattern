@@ -55,3 +55,31 @@ EOT
     @formatter.output_report(@title, @text) == @result
   end
 end
+
+describe 'Report' do
+  it "Report.new(HTMLFormatter.new)" do
+    @report = Report.new(HTMLFormatter.new)
+    @result = <<"EOT"
+<html>
+  <head>
+    <title>月次報告</title>
+  </head>
+  <body>
+    <p>順調</p>
+    <p>最高の調子</p>
+  </body>
+</html>
+EOT
+    @report.output_report.should == @result
+  end
+
+  it "Report.new(TEXTFormatter.new)" do
+    @report = Report.new(TEXTFormatter.new)
+    @result = <<"EOT"
+***** 月次報告 *****
+順調
+最高の調子
+EOT
+    @report.output_report.should == @result
+  end
+end
